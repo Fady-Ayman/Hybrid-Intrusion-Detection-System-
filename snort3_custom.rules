@@ -1,0 +1,2 @@
+include /etc/snort/rules/emerging-dos.rules.lua
+include /etc/snort/rules/emerging-scan.rules.lua
