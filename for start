@@ -5,14 +5,3 @@ uvicorn inference_server:app --host 0.0.0.0 --port 8000
 sudo java -Djava.library.path=/mnt/extra_storage/IDS_Project/CICFlowMeter_V3/jnetpcap/linux/jnetpcap-1.4.r1425   -cp /mnt/extra_storage/IDS_Project/CICFlowMeter_V3/target/CICFlowMeterV3-0.0.4-SNAPSHOT.jar   cic.cs.unb.ca.ifm.LiveCmd ens33
 
 
-
-
-
-(base) fa@fa-vm:~$ sudo tcpdump -i ens33 -s 0 -w /mnt/extra_storage/ssh-bruteforce.pcap
-[sudo] password for fa: 
-tcpdump: listening on ens33, link-type EN10MB (Ethernet), snapshot length 262144 bytes
-
-
-^C10617 packets captured
-10619 packets received by filter
-0 packets dropped by kernel
